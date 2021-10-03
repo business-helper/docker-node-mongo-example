@@ -60,4 +60,11 @@ docker [start/stop/restart/rm] container-name
 docker volume create volume-name
 ```
 
+### Compose
+
+- Run
+```
+docker-compose -f docker-compose.dev.yml up --build
+```
+
 
