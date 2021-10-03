@@ -4,12 +4,14 @@
   "description": "[Reference](https://docs.docker.com/language/nodejs/build-images)",
   "main": "index.js",
   "scripts": {
+    "debug": "nodemon --inspect=0.0.0.0:9229 server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Business Helper <alerk_star@outlook.com> (https://github.com/business-helper)",
   "license": "ISC",
   "dependencies": {
+    "nodemon": "^2.0.13",
     "ronin-database": "^0.1.1",
     "ronin-mocks": "^0.1.6",
     "ronin-server": "^0.1.3"
